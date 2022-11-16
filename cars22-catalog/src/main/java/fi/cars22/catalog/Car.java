@@ -11,7 +11,6 @@ public abstract class Car {
     public abstract double getElectricRange();
     public abstract int getTankSize();
     public abstract int getTopSpeed();
-    public abstract String getID();
     public abstract int getNrPassengers();
 
     public String getSummary() {
@@ -24,5 +23,9 @@ public abstract class Car {
 
     public void setId(String s) {
         this.id = s;
+    }
+
+    public String getID() {
+        return this.id;
     }
 }

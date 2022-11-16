@@ -9,35 +9,31 @@ public class ID3 extends Car {
 
     @Override
     public double getElectricConsumption() {
-        return 0.0;
+        return 157.0;
     }
     @Override
     public double getPetrolConsumption() {
-        return 8.7;
-    }
-    @Override
-    public String getPowerType() {
-        return "petrol";
-    }
-    @Override
-    public double getElectricRange() {
         return 0.0;
     }
     @Override
+    public String getPowerType() {
+        return "electric";
+    }
+    @Override
+    public double getElectricRange() {
+        return 330.0;
+    }
+    @Override
     public int getTankSize() {
-        return 55;
+        return 45000;
     }
     @Override
     public int getTopSpeed() {
-        return 210;
-    }
-    @Override
-    public String getID() {
-        return null;
+        return 170;
     }
     @Override
     public int getNrPassengers() {
-        return 7;
+        return 5;
     }
     
 }

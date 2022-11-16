@@ -32,10 +32,6 @@ public class Touran extends Car {
         return 210;
     }
     @Override
-    public String getID() {
-        return null;
-    }
-    @Override
     public int getNrPassengers() {
         return 7;
     }
