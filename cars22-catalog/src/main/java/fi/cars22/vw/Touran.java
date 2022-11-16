@@ -13,7 +13,7 @@ public class Touran extends Car {
     }
     @Override
     public double getPetrolConsumption() {
-        return 8.7;
+        return 0.087;
     }
     @Override
     public String getPowerType() {

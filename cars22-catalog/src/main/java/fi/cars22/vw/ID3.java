@@ -9,7 +9,7 @@ public class ID3 extends Car {
 
     @Override
     public double getElectricConsumption() {
-        return 157.0;
+        return 0.157; // KWh/Km
     }
     @Override
     public double getPetrolConsumption() {

@@ -1,6 +1,7 @@
 package fi.cars22.app;
 
 import fi.cars22.catalog.CarsCatalog;
+import fi.cars22.catalog.TripAdvisor;
 import fi.cars22.garage.Garage;
 
 public class App {
@@ -28,6 +29,13 @@ public class App {
         myGarage.addCar("laiva", catalog.getTouran());
 
         System.out.println(myGarage.garageShowcase());
+        TripAdvisor myTrip = new TripAdvisor();
+
+        myTrip.setChargePrice(0.15); // Euros
+        myTrip.setPetrolPrice(2.2); // Euros
+
+        System.out.println("Cost of trip with Electric Car is: " + myTrip.calcCost(catalog.getID3(), 700));  // KM
+        System.out.println("Cost of trip with Petrol Car is: " + myTrip.calcCost(catalog.getTouran(), 700));  // KM
 
     }
 }
